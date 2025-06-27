@@ -479,6 +479,66 @@ qs,intents
 "client ka status kaise change karte hain?", update_client_status
 "lead me client ke status ko change karna hai", update_client_status
 "client status update karna sikhao please", update_client_status
+"What is the current status of the client?", check_current_status  
+"Client ka current status kya hai?", check_current_status  
+"How to check current status of the client?", check_current_status  
+"Client ka current status kaise check karein?", check_current_status  
+"Show me the current status of this client.", check_current_status  
+"Mujhe is client ka current status dikhayein.", check_current_status  
+"Where can I see client current status?", check_current_status  
+"Client ka current status kahan dikh raha hai?", check_current_status  
+"How to view current status of a client?", check_current_status  
+"Client ka current status dekhne ka tareeqa kya hai?", check_current_status  
+"Tell me the client’s current status.", check_current_status  
+"Client ka current status batao.", check_current_status  
+"Is there a way to check current status of client?", check_current_status  
+"Kya client ka current status check karne ka tareeqa hai?", check_current_status  
+"What is lead current status?", check_current_status  
+"Lead ka current status kya hai?", check_current_status  
+"How to check lead current status?", check_current_status  
+"Lead ka current status kaise check karte hain?", check_current_status  
+"Where can I find the lead current status?", check_current_status  
+"Lead ka current status kahan milta hai?", check_current_status  
+"Lead current status dekhna hai.", check_current_status  
+"Mujhe lead ka current status dekhna hai.", check_current_status  
+"Show me lead current status.", check_current_status  
+"Lead ka current status dikhayein.", check_current_status  
+"Client or lead ka current status kaise pata chalega?", check_current_status  
+"How can I find client or lead current status?", check_current_status  
+"Client current status kahan update hota hai?", check_current_status  
+"Where is client current status updated?", check_current_status  
+"Lead ya client ka current status kaise dekhein?", check_current_status  
+"How to view lead or client current status?", check_current_status  
+"What is the next task of the client?", check_next_task  
+"Client ka next task kya hai?", check_next_task  
+"What do I have to do next for this client?", check_next_task  
+"Is client ke liye agla step kya lena hai?", check_next_task  
+"How to see the next task for the lead?", check_next_task  
+"Lead ka next task kaise dekhein?", check_next_task  
+"Show me the next task for this lead.", check_next_task  
+"Mujhe is lead ka next task dikhayein.", check_next_task  
+"Where can I check client’s next task?", check_next_task  
+"Client ka next task kahan check hota hai?", check_next_task  
+"What is pending next for the client?", check_next_task  
+"Client ke liye next pending kaam kya hai?", check_next_task  
+"What’s the upcoming task for this lead?", check_next_task  
+"Is lead ke liye agla kaam kya hai?", check_next_task  
+"Can I see the next follow-up or task?", check_next_task  
+"Agla follow-up ya task kahan dekhein?", check_next_task  
+"Where to find next assigned task of client?", check_next_task  
+"Client ka next assigned task kahan milega?", check_next_task  
+"Next client task kaise pata chalta hai?", check_next_task  
+"How to find the next client task?", check_next_task  
+"Is there a next task listed for this lead?", check_next_task  
+"Kya is lead ke liye next task likha gaya hai?", check_next_task  
+"next task ka log kaha hai?", check_next_task  
+"where is the log of next task?", check_next_task  
+"Next task kis tab mein hota hai?", check_next_task  
+"Which tab shows the next task?", check_next_task  
+"Lead ka agla task kya hai?", check_next_task  
+"What is the next task for the lead?", check_next_task  
+"Next task kaise check karun for this client?", check_next_task  
+"Is client ke liye next task kaise check karun?", check_next_task  
 "current task ka status update karna hai", update_task_status
 "task ka current status kaise change karen?", update_task_status
 "task ki current progress update karni hai", update_task_status
@@ -2397,95 +2457,36 @@ qs,intents
 "urgent task konsa hai task list me?", next_priority_task
 "mera current task status kya hai?", next_priority_task
 "show priority-based task list", next_priority_task
-"Show me how to use the system through a video tutorial.", tutorial  
-"System ka istemal seekhne ke liye video tutorial dikhao.", tutorial  
-
-"How can I add inventory? Any video available?", tutorial  
-"Inventory add karna hai, koi video available hai?", tutorial  
-
-"I need a tutorial video for assigning inventory.", tutorial  
-"Inventory assign karne ki tutorial video chahiye.", tutorial  
-
-"Share a video tutorial for filling the inventory form.", tutorial  
-"Inventory form bharne ki video tutorial share karo.", tutorial  
-
-"Is there a video on registering a new client?", tutorial  
-"Naya client register karne ki koi video hai?", tutorial  
-
-"Client add karne ka step-by-step video guide chahiye.", tutorial  
-"Step-by-step client add karne ka video guide chahiye.", tutorial  
-
-"Where can I see the task creation tutorial video?", tutorial  
-"Task banane ki tutorial video kahan milegi?", tutorial  
-
-"Payment calculation ka video tutorial send karein.", tutorial  
-"Please send a video tutorial for calculating payments.", tutorial  
-
-"How to assign inventory to a client in the system?", tutorial  
-"System mein client ko inventory assign kaise karte hain?", tutorial  
-
-"Show me the tutorial video of the to-do task feature.", tutorial  
-"To-do task feature ki video tutorial dikhayein.", tutorial  
-
-"Can I watch all tutorials in one tab?", tutorial  
-"Kya saari tutorials ek tab mein mil sakti hain?", tutorial  
-
-"I want a full tutorial for client registration.", tutorial  
-"Mujhe client registration ka full tutorial chahiye.", tutorial  
-
-"Is there a video to understand the whole system?", tutorial  
-"Kya system ko samajhne ke liye koi video hai?", tutorial  
-
-"I need video help for filling out forms in the system.", tutorial  
-"System ke forms bharne ke liye video help chahiye.", tutorial  
-
-"Please show me a visual guide for managing tasks.", tutorial  
-"Tasks manage karne ka visual guide dikhayein.", tutorial  
-
-"Inventory form fill karna hai, video dikhayein.", tutorial  
-"I want to fill inventory form, show me video.", tutorial  
-
-"How to calculate monthly payment? Show me video.", tutorial  
-"Monthly payment kaise calculate karte hain? Video dikhayein.", tutorial  
-
-"Kya assign inventory ka visual tutorial available hai?", tutorial  
-"Is there a visual tutorial available for assigning inventory?", tutorial  
-
-"How do I update a task? Any training video?", tutorial  
-"Task update kaise karte hain? Koi training video hai?", tutorial  
-
-"Client entry kaise hoti hai system mein, video chahiye.", tutorial  
-"How is client entry done in system? Need a video.", tutorial  
-
-"Where can I find the inventory guide video?", tutorial  
-"Inventory guide video kahan milegi?", tutorial  
-
-"How to create and manage tasks in the app?", tutorial  
-"App mein task kaise banate aur manage karte hain?", tutorial  
-
-"Show video to fill client form step by step.", tutorial  
-"Client form step by step bharne ka video dikhayein.", tutorial  
-
-"Can you guide me via a video for payment calculation?", tutorial  
-"Payment calculate karne ke liye video se guide karo.", tutorial  
-
-"Inventory ka process samajhna hai, tutorial dikhayein.", tutorial  
-"Need to understand inventory process, show tutorial.", tutorial  
-
-"I want to learn how to use the platform visually.", tutorial  
-"Platform ka istemal seekhna hai visually.", tutorial  
-
-"Kya client add karne ka koi video tutorial hai?", tutorial  
-"Is there any video tutorial for adding a client?", tutorial  
-
-"Show me the tab where I can watch tutorials.", tutorial  
-"Tutorials dekhne ka tab dikhayein.", tutorial  
-
-"How to complete a task in the to-do list? Show me video.", tutorial  
-"To-do list ka task complete kaise karte hain? Video dikhayein.", tutorial  
-
-"Client ko inventory dene ka process video mein samjhao.", tutorial  
-"Explain inventory assigning process to client through video.", tutorial  
+"What is a tutorial?", tutorials  
+"Tutorial kya hota hai?", tutorials  
+"Where can I find tutorial in the system?", tutorials  
+"System mein tutorial kahan milte hain?", tutorials  
+"How can I watch a tutorial video?", tutorials  
+"Tutorial video kaise dekhein?", tutorials  
+"Can you show me a tutorial for client registration?", tutorials  
+"Client registration ka tutorial dikhayein.", tutorials  
+"Is there a video for inventory process?", tutorials  
+"Inventory ka process video chahiye.", tutorials  
+"Show me tutorial for assigning inventory.", tutorials  
+"Inventory assign karne ka tutorial dikhayein.", tutorials  
+"How do I update tasks? Any tutorial available?", tutorials  
+"Tasks update karne ka tutorial mil sakta hai?", tutorials  
+"Is there a tutorial for lead entry?", tutorials  
+"Lead entry ka tutorial hai?", tutorials  
+"Where to find tutorial for payment calculation?", tutorials  
+"Payment calculator ka tutorial kahan milega?", tutorials  
+"Can I watch tutorials for updating client profile?", tutorials  
+"Client profile update karne ka video hai?", tutorials  
+"What is the use of tutorial tab?", tutorials  
+"Tutorials tab ka kya use hai?", tutorials  
+"Is there a tutorial for understanding to-do tasks?", tutorials  
+"To-do task samajhne ke liye koi video hai?", tutorials  
+"How to access the tutorial video?", tutorials  
+"Tutorials video kaise access karein?", tutorials  
+"I want to fill client form, is there any tutorial?", tutorials  
+"Client form bharna hai, koi tutorial video hai?", tutorials  
+"Are all video tutorials available in tutorials tab?", tutorials  
+"Kya tutorials tab mein saare videos hote hain?", tutorials  
 "Lead tab mein calculator kis kaam ka hota hai?", calculator_usage
 "Kya calculator se rent aur sale dono calculate hotay hain?", calculator_usage
 "Calculator lead tab mein kahan milta hai?", calculator_usage
@@ -2631,11 +2632,11 @@ qs,intents
 "Mujhe to-do tab chahiye", tab_location_info
 "To-do tab dikh nahi raha", tab_location_info
 "Where is the to-do task tab?", tab_location_info
-"Tutorials tab kidhar hai?", tab_location_info
-"Where can I find tutorials?", tab_location_info
-"Tutorial section kaunsa hai?", tab_location_info
-"Mujhe tutorials videos wali tab chahiye", tab_location_info
-"Tutorials tab kaise access hoti hai?", tab_location_info
+"tutorialss tab kidhar hai?", tab_location_info
+"Where can I find tutorialss?", tab_location_info
+"tutorials section kaunsa hai?", tab_location_info
+"Mujhe tutorialss videos wali tab chahiye", tab_location_info
+"tutorialss tab kaise access hoti hai?", tab_location_info
 "Assalamualaikum! How can I assist you today?", greeting
 "Hi there! How may I help you?", greeting
 "Hello! Kya main aap ki madad kar sakta hoon?", greeting
@@ -2754,7 +2755,7 @@ qs,intents
 "lead data client ke liye update kaise hota hai?", update_client_lead
 "client lead info galat hai, usko sahi kaise karein?", update_client_lead
 "lead change karne ki permission kaise milti hai for client?", update_client_lead
-"client par naye lead assign karna hai, video tutorial hai?", update_client_lead
+"client par naye lead assign karna hai, video tutorials hai?", update_client_lead
 "client ki details mein lead change karna chahte hain, kaise karein?", update_client_lead
 "client tab kya hota hai?", client_tab_info  
 "client tab mein kya information milti hai?", client_tab_info  
@@ -2846,12 +2847,13 @@ qs,intents
 "Pin location field kis kaam aati hai?", inventory_tab_info  
 "Kitni fields se inventory ko search kar sakte hain?", inventory_tab_info  
 "Inventory tab mein kaun kaun se actions perform karte hain?", inventory_tab_info  
-"What does the ToDo tab show?", todo_tab_purpose
-"What is the use of the ToDo tab?", todo_tab_purpose
-"Which tasks are visible in the ToDo tab?", todo_tab_purpose
-"What kind of leads are listed in the ToDo tab?", todo_tab_purpose
-"Does the ToDo tab show today's tasks?", todo_tab_purpose
-"Can I see tasks scheduled for today in the ToDo tab?", todo_tab_purpose
+"To do tab kaha hai",todo_tab_purpose
+"What does the To Do tab show?", todo_tab_purpose
+"What is the use of the To Do tab?", todo_tab_purpose
+"Which tasks are visible in the To Do tab?", todo_tab_purpose
+"What kind of leads are listed in the To Do tab?", todo_tab_purpose
+"Does the To Do tab show today's tasks?", todo_tab_purpose
+"Can I see tasks scheduled for today in the To Do tab?", todo_tab_purpose
 "Which tab displays today’s upcoming tasks?", todo_tab_purpose
 "Where can I view my next tasks for today?", todo_tab_purpose
 "How do I see leads with tasks due today?", todo_tab_purpose
@@ -2859,54 +2861,53 @@ qs,intents
 "Is today’s task list shown in the ToDo tab?", todo_tab_purpose
 "What is the function of the ToDo tab?", todo_tab_purpose
 "Where can I find today’s pending tasks?", todo_tab_purpose
-"Does the ToDo tab show tasks based on date?", todo_tab_purpose
+"Does the To Do tab show tasks based on date?", todo_tab_purpose
 "Where are today's scheduled tasks listed?", todo_tab_purpose
-"ToDo tab mein kya dikhai deta hai?", todo_tab_purpose
-"ToDo tab ka kya use hai?", todo_tab_purpose
+"To Do tab mein kya dikhai deta hai?", todo_tab_purpose
+"To Do tab ka kya use hai?", todo_tab_purpose
 "Kaun kaun se tasks ToDo tab mein hotay hain?", todo_tab_purpose
-"ToDo tab mein kis type ke leads show hote hain?", todo_tab_purpose
+"To Do tab mein kis type ke leads show hote hain?", todo_tab_purpose
 "Kya ToDo tab mein aaj ke tasks dikhte hain?", todo_tab_purpose
-"ToDo tab mein aaj wale kaam milte hain kya?", todo_tab_purpose
+"To Do tab mein aaj wale kaam milte hain kya?", todo_tab_purpose
 "Kis tab mein aaj ke next tasks dikhte hain?", todo_tab_purpose
 "Aaj ke next tasks kahan show hote hain?", todo_tab_purpose
 "Mujhe aaj wale tasks kahan milenge?", todo_tab_purpose
 "ToDo tab se aaj ke leads milte hain kya?", todo_tab_purpose
 "ToDo tab aaj ka schedule dikhata hai kya?", todo_tab_purpose
 "ToDo tab kis kaam ka hai?", todo_tab_purpose
-"Pending tasks for today kahan show hote hain?", todo_tab_purpose
+"ajh ka task kya hai?", todo_tab_purpose
 "Kya ToDo tab date based tasks dikhata hai?", todo_tab_purpose
 "Aaj ke tasks ToDo tab mein nazar aate hain kya?", todo_tab_purpose
-"Where can I find tutorials?", tutorials_info  
-"Are there video tutorials available?", tutorials_info  
-"How do I watch tutorials for inventory management?", tutorials_info  
-"Is there a step-by-step guide in the tutorials?", tutorials_info  
-"Can I download tutorial videos?", tutorials_info  
-"Do tutorials cover client lead management?", tutorials_info  
-
-"Are tutorials updated regularly?", tutorials_info  
-"Can I get tutorials for task management?", tutorials_info  
-"How detailed are the tutorials?", tutorials_info  
-"Can tutorials be accessed offline?", tutorials_info  
-"Is there a search option for tutorials?", tutorials_info  
-"Who creates these tutorials?", tutorials_info  
-"Are the tutorials suitable for beginners?", tutorials_info  
-"Can I request new tutorials?", tutorials_info  
-"Do tutorials include examples?", tutorials_info  
-"Tutorials kahan milte hain?", tutorials_info  
-"Kya video tutorials available hain?", tutorials_info  
-"Inventory management ke tutorials kaise dekhein?", tutorials_info  
-"Step-by-step guide tutorials mein hoti hai?", tutorials_info  
-"Tutorial videos download kar sakte hain?", tutorials_info  
-"Kya tutorials mein client lead management bhi hai?", tutorials_info  
-"Tutorials ko regularly update kiya jata hai?", tutorials_info  
-"Kya task management ke tutorials hain?", tutorials_info  
-"Tutorials kitne detailed hain?", tutorials_info  
-"Tutorials offline access kar sakte hain?", tutorials_info  
-"Tutorials ke liye search option hai?", tutorials_info  
-"Ye tutorials kaun banata hai?", tutorials_info  
-"Kya tutorials beginners ke liye hain?", tutorials_info  
-"Naye tutorials request kar sakte hain?", tutorials_info  
-"Kya tutorials mein examples diye gaye hain?", tutorials_info  
+"Where can I find tutorialss?", tutorialss_info  
+"Are there video tutorialss available?", tutorialss_info  
+"How do I watch tutorialss for inventory management?", tutorialss_info  
+"Is there a step-by-step guide in the tutorialss?", tutorialss_info  
+"Can I download tutorials videos?", tutorialss_info  
+"Do tutorialss cover client lead management?", tutorialss_info  
+"Are tutorialss updated regularly?", tutorialss_info  
+"Can I get tutorialss for task management?", tutorialss_info  
+"How detailed are the tutorialss?", tutorialss_info  
+"Can tutorialss be accessed offline?", tutorialss_info  
+"Is there a search option for tutorialss?", tutorialss_info  
+"Who creates these tutorialss?", tutorialss_info  
+"Are the tutorialss suitable for beginners?", tutorialss_info  
+"Can I request new tutorialss?", tutorialss_info  
+"Do tutorialss include examples?", tutorialss_info  
+"tutorialss kahan milte hain?", tutorialss_info  
+"Kya video tutorialss available hain?", tutorialss_info  
+"Inventory management ke tutorialss kaise dekhein?", tutorialss_info  
+"Step-by-step guide tutorialss mein hoti hai?", tutorialss_info  
+"tutorials videos download kar sakte hain?", tutorialss_info  
+"Kya tutorialss mein client lead management bhi hai?", tutorialss_info  
+"tutorialss ko regularly update kiya jata hai?", tutorialss_info  
+"Kya task management ke tutorialss hain?", tutorialss_info  
+"tutorialss kitne detailed hain?", tutorialss_info  
+"tutorialss offline access kar sakte hain?", tutorialss_info  
+"tutorialss ke liye search option hai?", tutorialss_info  
+"Ye tutorialss kaun banata hai?", tutorialss_info  
+"Kya tutorialss beginners ke liye hain?", tutorialss_info  
+"Naye tutorialss request kar sakte hain?", tutorialss_info  
+"Kya tutorialss mein examples diye gaye hain?", tutorialss_info  
 "Bye",goodbye
 "Goodbye",goodbye
 "See you later",goodbye
@@ -3267,4 +3268,322 @@ qs,intents
 "Lead action ke andar WhatsApp ka option milta hai kya?", send_message_to_client
 "Client ko system se contact kaise karein?", send_message_to_client
 "WhatsApp ya Email dono option ek hi jagah se milte hain kya?", send_message_to_client
-
+"What is the difference between client and lead?", lead_vs_client_difference  
+"How is a client different from a lead?", lead_vs_client_difference  
+"Is every client also a lead?", lead_vs_client_difference  
+"Who is called a client and who is called a lead?", lead_vs_client_difference  
+"Does lead come after client?", lead_vs_client_difference  
+"How is lead created from client?", lead_vs_client_difference  
+"Is lead assigned automatically to a client?", lead_vs_client_difference  
+"When does a client become a lead?", lead_vs_client_difference  
+"Are leads and clients stored in the same place?", lead_vs_client_difference  
+"Which details are stored in a lead?", lead_vs_client_difference  
+"Do we need to add client first before creating a lead?", lead_vs_client_difference  
+"Why can’t I delete a lead like a client?", lead_vs_client_difference  
+"Can lead exist without client info?", lead_vs_client_difference  
+"What triggers creation of a lead in the system?", lead_vs_client_difference  
+"What does lead record include compared to client?", lead_vs_client_difference  
+"Client aur lead mein kya farq hai?", lead_vs_client_difference  
+"Client alag hai ya lead?", lead_vs_client_difference  
+"Kya har client lead hota hai?", lead_vs_client_difference  
+"Client kisay kehte hain aur lead kisay?", lead_vs_client_difference  
+"Lead kab banta hai?", lead_vs_client_difference  
+"Lead client se kaise banta hai?", lead_vs_client_difference  
+"Client se lead automatic banta hai?", lead_vs_client_difference  
+"Jab client property leta hai to lead banta hai?", lead_vs_client_difference  
+"Kya client bina lead ban sakta hai?", lead_vs_client_difference  
+"Lead mein kya kya data store hota hai?", lead_vs_client_difference  
+"Lead create karne se pehle client zaroori hai?", lead_vs_client_difference  
+"Client ke baad lead assign karte hain?", lead_vs_client_difference  
+"Kya lead delete kar sakte hain?", lead_vs_client_difference  
+"Lead aur client dono ek hi cheez hain kya?", lead_vs_client_difference  
+"Client ke sath inventory link hone pe lead banta hai?", lead_vs_client_difference  
+"What is a lead?", what_is_lead
+"Who is considered a lead?", what_is_lead
+"What does a lead mean in the system?", what_is_lead
+"Why do we need leads?", what_is_lead
+"Is a lead a client?", what_is_lead
+"When is a lead created?", what_is_lead
+"What does a lead contain?", what_is_lead
+"What is the purpose of a lead?", what_is_lead
+"Is lead just a task?", what_is_lead
+"Does lead mean confirmed deal?", what_is_lead
+"Why is lead important?", what_is_lead
+"What information does a lead have?", what_is_lead
+"What happens when a lead is created?", what_is_lead
+"Who can become a lead?", what_is_lead
+"Is lead related to client and property both?", what_is_lead
+"Lead kya hota hai?", what_is_lead
+"Lead kisay kehte hain?", what_is_lead
+"System mein lead ka kya matlab hai?", what_is_lead
+"Lead kyun banate hain?", what_is_lead
+"Kya lead ka matlab client hota hai?", what_is_lead
+"Lead kab banta hai?", what_is_lead
+"Lead mein kya details hoti hain?", what_is_lead
+"Lead ka kya faida hai?", what_is_lead
+"Kya lead sirf task hota hai?", what_is_lead
+"Lead ka matlab deal confirm hona hai kya?", what_is_lead
+"Lead important kyun hota hai?", what_is_lead
+"Lead banne ke baad kya hota hai?", what_is_lead
+"Kya har client lead ban sakta hai?", what_is_lead
+"Lead mein client aur inventory dono hote hain kya?", what_is_lead
+"Lead ka record kaise banta hai?", what_is_lead
+"How to edit task of a client?", edit_client_task
+"Where can I edit the task assigned to a client?", edit_client_task
+"Is there any way to change the client’s current task?", edit_client_task
+"How do I update an existing client task?", edit_client_task
+"Can I modify the task details for a client?", edit_client_task
+"What’s the process to edit client task?", edit_client_task
+"Can I change the deadline of a task?", edit_client_task
+"Where is the edit option for client tasks?", edit_client_task
+"How to make changes in assigned task?", edit_client_task
+"I want to correct task details, how to do that?", edit_client_task
+"How to update the next task of a lead?", edit_client_task
+"Can I update the current and next task?", edit_client_task
+"How do I edit client task with deadline?", edit_client_task
+"Which tab allows task editing for client?", edit_client_task
+"Can we edit tasks from the lead tab?", edit_client_task
+"Client ka task kaise edit karen?", edit_client_task
+"Assigned task mein change kaise karein?", edit_client_task
+"Client ke task ki deadline change kar sakte hain?", edit_client_task
+"Task edit karne ka option kahan hota hai?", edit_client_task
+"Current task update karna hai, kaise karein?", edit_client_task
+"Client ka task modify kaise hota hai?", edit_client_task
+"Kya task ko dobara update kiya ja sakta hai?", edit_client_task
+"Next task change karna ho to kya karein?", edit_client_task
+"Lead ka task edit kaise karte hain?", edit_client_task
+"Client task ka data change kaise karein?", edit_client_task
+"Kya lead tab se task edit ho jata hai?", edit_client_task
+"Client task mein galti ho gayi hai, kaise theek karen?", edit_client_task
+"Task ke details change karne hain, kya tareeqa hai?", edit_client_task
+"Client ke task ka deadline update karna hai", edit_client_task
+"Task edit karna hai, step by step guide batao", edit_client_task
+"How can I see all leads assigned to a client?", find_client_leads  
+"Where to check total number of leads for one client?", find_client_leads  
+"Is there a way to view complete lead list of a client?", find_client_leads  
+"How to track all leads assigned to a specific client?", find_client_leads  
+"Where do I find a client's lead history?", find_client_leads  
+"How do I check how many leads a client has?", find_client_leads  
+"I want to view all leads linked to one client.", find_client_leads  
+"Which tab shows the list of a client’s assigned leads?", find_client_leads  
+"How to get full lead record for a client?", find_client_leads  
+"Can I find client’s total assigned leads?", find_client_leads  
+"Where can I get the count of leads per client?", find_client_leads  
+"How to fetch leads of one client from system?", find_client_leads  
+"Want to check lead details for a single client.", find_client_leads  
+"Is it possible to view lead history by client?", find_client_leads  
+"How to know how many times leads are assigned to a client?", find_client_leads  
+"Ek client ki sari leads kahan se dekhein?", find_client_leads  
+"Client ko kitni leads assign hui hain kaise check karein?", find_client_leads  
+"Kya client ki puri lead list dekh sakte hain?", find_client_leads  
+"Ek specific client ki leads kaise track karein?", find_client_leads  
+"Client ki lead history kahan milegi?", find_client_leads  
+"Client ke paas kitni leads hain kaise pata chalega?", find_client_leads  
+"Mujhe ek client ki sari assigned leads dekhni hain.", find_client_leads  
+"Konsi tab mein client ki leads ka list hota hai?", find_client_leads  
+"Ek client ka pura lead record kaise milega?", find_client_leads  
+"Client ke assigned leads ka total count kaise dekhein?", find_client_leads  
+"Per client lead count kahan se milega?", find_client_leads  
+"Ek client ki leads system se kaise nikalein?", find_client_leads  
+"Ek client ke liye lead details dekhni hain.", find_client_leads  
+"Kya client ki lead history available hai?", find_client_leads  
+"Client ko kitni dafa lead assign hui hai kaise jaanen?", find_client_leads  
+"How to upload inventory in bulk?", upload_bulk_inventory
+"Where can I add inventory in bulk?", upload_bulk_inventory
+"Steps to upload bulk inventory?", upload_bulk_inventory
+"Can I upload inventory all at once?", upload_bulk_inventory
+"How do I bulk upload inventory?", upload_bulk_inventory
+"What is the way to add bulk inventory?", upload_bulk_inventory
+"Is there a bulk upload option for inventory?", upload_bulk_inventory
+"How to add many inventory items at once?", upload_bulk_inventory
+"I want to upload full inventory together.", upload_bulk_inventory
+"Where is bulk inventory upload button?", upload_bulk_inventory
+"Can I import multiple inventory items?", upload_bulk_inventory
+"How can I upload a list of inventory items?", upload_bulk_inventory
+"Inventory ko ek sath kaise upload karen?", upload_bulk_inventory
+"How to insert inventory data in bulk?", upload_bulk_inventory
+"Can I use file to upload bulk inventory?", upload_bulk_inventory
+"Bulk inventory upload kaise karen?", upload_bulk_inventory
+"Inventory ek sath add karne ka tareeqa kya hai?", upload_bulk_inventory
+"Mujhe saari inventory ek bar mein upload karni hai.", upload_bulk_inventory
+"Inventory ka bulk data kaise upload hota hai?", upload_bulk_inventory
+"Ek sath inventory kaise insert karen?", upload_bulk_inventory
+"Kya mein inventory ek bar mein daal sakta hoon?", upload_bulk_inventory
+"Inventory ka list upload karna hai, kaise karun?", upload_bulk_inventory
+"Multiple inventory items upload kaise hote hain?", upload_bulk_inventory
+"Inventory ko file se bulk mein kaise upload karen?", upload_bulk_inventory
+"Inventory bulk mein upload karne ka process kya hai?", upload_bulk_inventory
+"Green plus icon se bulk upload hota hai kya?", upload_bulk_inventory
+"Inventory tab mein bulk upload option hai?", upload_bulk_inventory
+"Inventory ko CSV ya file se upload karna hai.", upload_bulk_inventory
+"Bulk mein inventory add karni hai kaise karun?", upload_bulk_inventory
+"Mujhe puri inventory import karni hai system mein.", upload_bulk_inventory
+"What is PropSel?", what_is_propsel
+"Can you tell me what PropSel means?", what_is_propsel
+"Explain PropSel to me.", what_is_propsel
+"I don’t understand PropSel, what is it?", what_is_propsel
+"What does PropSel stand for?", what_is_propsel
+"Full form of PropSel?", what_is_propsel
+"Tell me more about PropSel.", what_is_propsel
+"Is PropSel a company or a feature?", what_is_propsel
+"What does the term PropSel mean?", what_is_propsel
+"Need details about PropSel.", what_is_propsel
+"What type of platform is PropSel?", what_is_propsel
+"How does PropSel work?", what_is_propsel
+"Is PropSel a real estate platform?", what_is_propsel
+"Can you explain the PropSel concept?", what_is_propsel
+"I heard about PropSel, what is it?", what_is_propsel
+"PropSel kya hai?", what_is_propsel
+"PropSel ka matlab kya hota hai?", what_is_propsel
+"PropSel kis cheez ka naam hai?", what_is_propsel
+"Mujhe nahi pata PropSel kya hai?", what_is_propsel
+"PropSel kis field se related hai?", what_is_propsel
+"Kya aap PropSel samjha saktay hain?", what_is_propsel
+"PropSel ka full form kya hai?", what_is_propsel
+"PropSel aik software hai ya company?", what_is_propsel
+"Kya PropSel kisi app ka naam hai?", what_is_propsel
+"PropSel kis kaam mein use hota hai?", what_is_propsel
+"PropSel ka use kya hai?", what_is_propsel
+"PropSel real estate ka part hai kya?", what_is_propsel
+"PropSel system hota hai ya website?", what_is_propsel
+"Kya PropSel aik feature ka naam hai?", what_is_propsel
+"PropSel kaam kaise karta hai?", what_is_propsel
+"client kya hota hai?", define_client  
+"clients kya hotay hain?", define_client  
+"client ka matlab kya hota hai?", define_client  
+"who is a client?", define_client  
+"client kisay kehte hain?", define_client  
+"client kaun hota hai?", define_client  
+"client kon hota hai?", define_client  
+"ek client kya karta hai?", define_client  
+"what is client?", define_client  
+"explain client to me", define_client  
+"client ka role kya hota hai?", define_client  
+"client ka kaam kya hota hai?", define_client  
+"real estate client kon hota hai?", define_client  
+"client kaun hota hai property mein?", define_client  
+"client kaise banta hai?", define_client  
+"client banne ke liye kya karna parta hai?", define_client  
+"client ki definition do", define_client  
+"client ka kya function hota hai?", define_client  
+"how do you define a client?", define_client  
+"explain client in simple words", define_client  
+"client real estate mein kya hota hai?", define_client  
+"How to give discount to a client?", give_client_discount  
+"Client ko discount kaise dein?", give_client_discount  
+"How to apply discount for a client?", give_client_discount  
+"Client ke liye discount kaise apply karein?", give_client_discount  
+"How to give a specific discount amount to a client?", give_client_discount  
+"Specific client ko discount amount kaise den?", give_client_discount  
+"How to manually give discount to a client?", give_client_discount  
+"Client ko manual discount kaise dein?", give_client_discount  
+"How to assign discount to a client?", give_client_discount  
+"Kisi client ko discount kaise assign karein?", give_client_discount  
+"How to set fixed discount for a client?", give_client_discount  
+"Client ko fixed discount kaise dein?", give_client_discount  
+"How to update discount for a client?", give_client_discount  
+"Client ka discount update kaise hota hai?", give_client_discount  
+"Where to enter discount for a client?", give_client_discount  
+"Client ke liye discount kahan likhna hota hai?", give_client_discount  
+"How to create discounted deal for client?", give_client_discount  
+"Client ke liye discounted deal kaise banayein?", give_client_discount  
+"How to show discount to a client?", give_client_discount  
+"Client ko discount dikhane ka tareeqa kya hai?", give_client_discount  
+"Can we offer discount to client?", give_client_discount  
+"Kya client ko discount diya ja sakta hai?", give_client_discount  
+"How to fill discount in client form?", give_client_discount  
+"Client form mein discount kaise fill karein?", give_client_discount  
+"Where is discount field in client form?", give_client_discount  
+"Client form mein discount field kahan hoti hai?", give_client_discount  
+"How to apply discount inside a lead?", give_client_discount  
+"Lead ke andar discount kaise add karte hain?", give_client_discount  
+"How to delete a lead?", delete_lead  
+"Lead delete kaise karte hain?", delete_lead  
+"Can I delete a lead?", delete_lead  
+"Kya lead delete kar sakte hain?", delete_lead  
+"Where is the delete option for a lead?", delete_lead  
+"Lead ka delete option kahan hota hai?", delete_lead  
+"Lead ko system se kaise hataayein?", delete_lead  
+"How to remove a lead from the system?", delete_lead  
+"Delete lead permanently kaise hoti hai?", delete_lead  
+"How to permanently delete a lead?", delete_lead  
+"How to remove wrong lead?", delete_lead  
+"Ghalat lead ko kaise delete karein?", delete_lead  
+"Delete button kahan hota hai lead ke liye?", delete_lead  
+"Where is the delete button for a lead?", delete_lead  
+"Kya ek hi click se lead delete hoti hai?", delete_lead  
+"Can a lead be deleted with one click?", delete_lead  
+"How to clear a lead from dashboard?", delete_lead  
+"Dashboard se lead kaise remove karein?", delete_lead  
+"Lead delete karne ka process kya hai?", delete_lead  
+"What is the process to delete a lead?", delete_lead  
+"Kya lead delete karne se client data bhi delete hota hai?", delete_lead  
+"Does deleting a lead also remove client data?", delete_lead  
+"Lead ko hataana ho to kya karen?", delete_lead  
+"If I want to delete a lead, what should I do?", delete_lead  
+"System mein lead delete kaise hoti hai?", delete_lead 
+"How does lead deletion work in the system?", delete_lead  
+"Delete option lead ki actions mein milta hai kya?", delete_lead  
+"Is the delete option available in lead actions?", delete_lead  
+"Ek lead ko remove karne ka tareeqa kya hai?", delete_lead  
+"What is the way to remove a lead?", delete_lead  
+"How to change down payment for a client?", update_downpayment  
+"Client ke liye down payment kaise change karein?", update_downpayment  
+"Can I update the down payment amount?", update_downpayment  
+"Kya down payment amount update kar sakte hain?", update_downpayment  
+"Where can I edit client’s down payment?", update_downpayment  
+"Client ki down payment kahan edit hoti hai?", update_downpayment  
+"How to modify down payment in calculator?", update_downpayment  
+"Calculator mein down payment kaise modify karte hain?", update_downpayment  
+"Can I reduce down payment for a client?", update_downpayment  
+"Kya client ke liye down payment kam kar sakte hain?", update_downpayment  
+"Where to find down payment field?", update_downpayment  
+"Down payment ka field kahan hota hai?", update_downpayment  
+"How to adjust down payment in lead?", update_downpayment  
+"Lead mein down payment kaise adjust karein?", update_downpayment  
+"Is it possible to edit down payment after lead is created?", update_downpayment  
+"Kya lead banne ke baad down payment edit ho sakti hai?", update_downpayment  
+"Client ki initial payment kaise change karein?", update_downpayment  
+"How to change client's initial payment?", update_downpayment  
+"How do I enter custom down payment?", update_downpayment  
+"Custom down payment kaise enter karein?", update_downpayment  
+"Lead ke calculator mein down payment ka option kahan hai?", update_downpayment  
+"Where is the down payment option in lead calculator?", update_downpayment  
+"Can I increase client’s down payment?", update_downpayment  
+"Kya client ki down payment barhayi ja sakti hai?", update_downpayment  
+"Update the amount of down payment?", update_downpayment  
+"Down payment ka amount kaise update karein?", update_downpayment  
+"Client ke liye alag down payment set karni hai.", update_downpayment  
+"I want to set a different down payment for the client.", update_downpayment  
+"Kya down payment deal ke andar change hoti hai?", update_downpayment  
+"Can we change down payment within the deal?", update_downpayment  
+"How to change payment pricing for a client?", update_client_pricing  
+"Client ki payment pricing kaise change karein?", update_client_pricing  
+"How to edit client pricing details?", update_client_pricing  
+"Client ki pricing details kaise edit karein?", update_client_pricing  
+"Where can I update pricing for a specific client?", update_client_pricing  
+"Specific client ki pricing kahan update karein?", update_client_pricing  
+"How to adjust payment amount for a client?", update_client_pricing  
+"Client ke liye payment amount kaise adjust karein?", update_client_pricing  
+"Can I change deal price for a client?", update_client_pricing  
+"Kya client ke liye deal price change kar sakte hain?", update_client_pricing  
+"How to update client's custom price?", update_client_pricing  
+"Client ki custom price kaise update karte hain?", update_client_pricing  
+"Is there a way to edit payment details for a client?", update_client_pricing  
+"Kya client ki payment details edit karne ka tareeqa hai?", update_client_pricing  
+"Where to find client pricing form?", update_client_pricing  
+"Client pricing form kahan hota hai?", update_client_pricing  
+"How can I offer new payment terms to a client?", update_client_pricing  
+"Client ko nayi payment terms kaise offer karein?", update_client_pricing  
+"Change client deal pricing in lead?", update_client_pricing  
+"Lead mein client ki deal pricing kaise change karein?", update_client_pricing  
+"How to customize payment plan for client?", update_client_pricing  
+"Client ke liye payment plan kaise customize karein?", update_client_pricing  
+"Can I lower price for a specific client?", update_client_pricing  
+"Kya specific client ke liye price kam kar sakte hain?", update_client_pricing  
+"How to add discount to client pricing?", update_client_pricing  
+"Client ki pricing mein discount kaise add karein?", update_client_pricing  
+"How to change calculator values for a client?", update_client_pricing  
+"Client ke liye calculator values kaise badlein?", update_client_pricing  
+"Can we update pricing after creating a lead?", update_client_pricing  
+"Kya lead banane ke baad pricing update kar sakte hain?", update_client_pricing  
